@@ -1,0 +1,124 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{width:700px;
+	margin: auto;
+border: 1px solid rgb(175, 172, 172);
+padding: 20px;}
+body{
+	font-family: helvetica, sans-serif;
+	font-size: 14px;
+	margin: 20px;
+}
+.container{
+}
+.text h3{
+	position: absolute;
+	left: 732px;
+	display: block;
+}
+div{
+	margin-bottom: 15px;
+}
+.head{
+	color: #326c9c;
+}
+.head h1 {
+	margin-bottom: 10px;
+}
+.head .float {float: right;
+}
+.head p{
+	font-size: 12px;
+	line-height: 15px;
+}
+.sec2{
+
+}
+.sec2 h3{
+	margin-top: 5px;
+}
+.sec2 span{
+	background: #73a1c9;
+	color: white;
+	padding: 5px 30px 5px 0px;
+}
+.sec2 p{
+line-height: 25px;}
+.table1{
+	float: right;
+	text-align: center;
+	font-weight: bold;
+
+}
+.table1 table{
+width: 400px;}
+.table1 th{
+	background:#73a1c9;
+	color: white;
+	padding: 10px;
+}
+.table1 td{
+	background: #ebebeb;
+	padding: 10px;
+}
+.table2 table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table2 table th{
+		text-align: left;
+		background: #d2d2d2;
+		padding: 10px 10px 10px 0px;
+
+}
+.table2 table tr {
+	border: 1px solid  #a6a6a6;
+	border-right: 0px;
+	border-left: 0px;
+}
+.table2 table td{
+padding: 10px 10px 10px 0px;
+}
+.table2 table .colgroup{
+	background: #ebebeb;
+
+}
+.table2 table .colgroup2{
+	background: #a6a6a6;
+
+}
+
+.table3 table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table3 table th{
+		text-align: left;
+		background: #d2d2d2;
+		padding: 10px 10px 10px 0px;
+
+}
+.table3 table tr {
+	border: 1px solid  #a6a6a6;
+	border-right: 0px;
+	border-left: 0px;
+}
+.table3 table td{
+padding: 10px 10px 10px 0px;
+}
+.table3 table .colgroup{
+	background: #ebebeb;
+
+}
+.table3 table .colgroup2{
+	background: #a6a6a6;
+}
+.table3 .mark{
+background:#d2d2d2;
+}
+
+
+
+

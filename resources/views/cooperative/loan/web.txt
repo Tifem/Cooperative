@@ -1,0 +1,19 @@
+ Route::group(['prefix' => 'member-repayment'], function () {
+            Route::get('/loan', [App\Http\Controllers\IndividualMemberLedgerController::class, 'loanHome'])->name('loan-repayment-home');
+            Route::post('/transact', [App\Http\Controllers\IndividualMemberLedgerController::class, 'loanRepayment'])->name('loan-repayment-transaction');
+        });
+
+ Route::group(['prefix' => 'member-accounts'], function () {
+            Route::get('/', [App\Http\Controllers\MembershipController::class, 'membersAccount'])->name('member-accounts');
+        });
+
+ Route::group(['prefix' => 'member-saving-payment'], function () {
+            Route::get('/', [App\Http\Controllers\IndividualMemberLedgerController::class, 'savingHome'])->name('saving-payment');
+            Route::post('/transact', [App\Http\Controllers\IndividualMemberLedgerController::class, 'savingPayment'])->name('saving-payment-transaction');
+        });
+  Route::get('/excel-monthly-deduction', [App\Http\Controllers\MonthlyDeductionController::class, 'excelMonthlydeductions'])->name('excel_monthly_deduction');
+        Route::post('/excel-monthly-deduction', [App\Http\Controllers\MonthlyDeductionController::class, 'importDeductionTemplate'])->name('import_excel_monthly_deduction');
+
+within membership route
+ Route::get('/get_member_accounts', [App\Http\Controllers\MembershipController::class, 'getMemberAccounts'])->name('get_member_accounts');
+ Route::get('/member_account_deduction', [App\Http\Controllers\MembershipController::class, 'memberAccountDeductions'])->name('member_account_deduction');
